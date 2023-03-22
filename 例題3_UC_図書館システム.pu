@@ -1,17 +1,24 @@
-@startuml 例題3
+@startuml
 left to right direction
-actor 利用者 as user #DDDDDD;line:black;line.bold;
-actor 管理者 as admin #DDDDDD;line:black;line.bold;
-rectangle 図書館システム {
-usecase ユーザを登録する as T<< U1 >> 
-usecase ユーザを認証する << U2 >>
-usecase 図書を検索する << U3 >>
-usecase 貸出をうける << U4 >>
+actor 申請者 as user #DDDDDD;line:black;line.bold;
+actor 承諾者 as admin #DDDDDD;line:black;line.bold;
+actor 交通費清算システム as system #DDDDDD;line:black;line.bold;
+actor 経理担当者 as keiri #DDDDDD;line:black;line.bold;
+
+rectangle 出張申請システム {
+usecase 出張申請を登録する as A
+usecase 出張申請を提出する as B
+usecase 出張申請を承諾する as C
+usecase 出張申請を却下する as D
+usecase 出張申請を差し戻す as E
+usecase 出張申請を確認する as F
 }
-user--> T :<< 登録 >>
-user----> ユーザを認証する:<< 認証 >>
-user----> 図書を検索する:<< 検索 >>
-user----> 貸出をうける:<< 貸出 >>
-T <---- admin:<< 登録 >>
-貸出をうける <---- admin: << 貸出を受ける >>
+user---> A
+user---> B
+admin---> C
+admin---> D
+admin---> E
+admin---> F
+keiri---> F
+A <--- system
 @enduml
