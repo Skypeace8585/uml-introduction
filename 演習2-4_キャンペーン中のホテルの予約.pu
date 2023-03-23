@@ -7,5 +7,5 @@ rectangle ホテル宿泊予約{
 }
   利用者-->input
   キャンペーン <. input : << extend >>
-input <. ログイン : << include >>
+ ログイン <. input : << include >>
 @enduml
