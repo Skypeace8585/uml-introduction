@@ -6,6 +6,6 @@ rectangle ホテル宿泊予約{
     usecase (<u>予約</u>\n拡張点\nキャンペーン期間) as input
 }
   利用者-->input
-  キャンペーン <. input : << extend >>
+  キャンペーン .> input : << extend >>
  input .> ログイン : << include >>
 @enduml
