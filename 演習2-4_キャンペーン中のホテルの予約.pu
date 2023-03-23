@@ -1,4 +1,4 @@
-@startuml
+@startuml キャンペーン
 actor 利用者 #DDDDDD;line:black;line.bold;
 rectangle ホテル宿泊予約{
     usecase ログイン
