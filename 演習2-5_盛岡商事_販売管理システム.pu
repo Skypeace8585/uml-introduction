@@ -2,9 +2,9 @@
 actor 従業員 #PapayaWhip;line:blue;line.bold;text:blue
 rectangle 販売管理システム{
     
-    usecase システムで確認
-    usecase システムに登録
+    usecase システムで確認する
+    usecase システムに登録する
 }
-従業員-->システムで確認
-従業員-->システムに登録
+従業員-->システムで確認する
+従業員-->システムに登録する
 @enduml
