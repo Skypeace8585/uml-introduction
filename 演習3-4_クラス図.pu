@@ -1,4 +1,4 @@
-@startuml 演習３－４
+@startuml 3-5
 class 車{
 
 }

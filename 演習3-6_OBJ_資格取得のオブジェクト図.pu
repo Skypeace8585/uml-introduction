@@ -1,4 +1,4 @@
-@startuml 演習３－６
+@startuml 3-6
 object "髙橋洋平さん:社員クラス" as 髙橋洋平{
 
 }

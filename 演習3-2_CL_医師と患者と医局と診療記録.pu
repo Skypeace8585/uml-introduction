@@ -1,4 +1,4 @@
-@startuml
+@startuml 3-2
 left to right direction
 class 医局{
     - 外科
@@ -9,8 +9,11 @@ class 患者{
 }
 class 医師{
 }
+class 診察記録 {
+
+}
 医師-->患者:診察する
 医師 "1" --o "1" 医局
 医師 "1" --up- "*" 患者
-
+医師 ---> 診察記録:診察の都度に作成する
 @enduml

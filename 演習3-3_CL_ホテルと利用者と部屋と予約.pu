@@ -1,4 +1,4 @@
-@startuml 演習３－３
+@startuml 3-3
 class 利用者{
     -名前
     -住所

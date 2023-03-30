@@ -1,4 +1,4 @@
-@startuml 演習３－４
+@startuml 3-4
 object "車:車クラス" as car{
     
 }

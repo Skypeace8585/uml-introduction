@@ -1,4 +1,4 @@
-@startuml 演習３－５
+@startuml 3-5
 object "Aさん:利用者クラス" as Aさん{
 
 }
