@@ -1,13 +1,10 @@
 @startuml
 hide footbox
-
-participant "利用者:user" as user
-participant ":予約画面" as window
-
-
-activate user
-user -> window : ログインをする()
-activate window
-window -> window : 認証動作を行う
-activate window
+participant "user:利用者" as user
+participant ":予約画面" as boundary
+user -> boundary :ログインする()
+activate boundary
+    boundary ->> boundary : 認証()
+    activate boundary
+deactivate boundary
 @enduml
