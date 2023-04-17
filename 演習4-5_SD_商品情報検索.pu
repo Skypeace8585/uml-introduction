@@ -1,0 +1,5 @@
+@startuml
+actor ":会員"
+participant ":商品検索画面" as boundary <<boundary>>
+participant "商品"
+@enduml
