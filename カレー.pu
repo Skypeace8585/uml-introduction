@@ -1,0 +1,18 @@
+@startuml
+start
+:材料を調達するする;
+fork
+fork
+:野菜を一旦眺め圧を与えておいしくしておく;
+:肉、野菜を大いに炒める;
+fork again
+:ルーを溶解する;
+end fork
+:ルーに野菜をいれて煮る;
+fork again
+:米を洗う;
+:ご飯を炊く;
+end fork
+:ルーをご飯にかける;
+stop
+@enduml
