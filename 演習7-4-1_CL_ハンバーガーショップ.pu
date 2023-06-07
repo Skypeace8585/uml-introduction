@@ -1,0 +1,89 @@
+@startuml
+hide circle
+
+class "ドリンク" as aa{
+    種別
+}
+
+class "フード" as bb{
+
+}
+
+class "商品" as cc{
+    名称
+    単価
+}
+
+class "注文明細" as dd{
+    数量
+    小計
+}
+
+class "注文" as ee{
+    合計
+}
+
+class "カップ" as ff{
+    サイズ
+}
+
+class "材料" as gg{
+
+}
+
+class "ハンバーガー" as hh{
+    種別
+}
+
+class "割引クーポン" as ii{
+    値引き額
+    期限
+}
+
+class "レシピ" as jj{
+
+}
+
+class "ポテト" as kk{
+    サイズ
+}
+
+class "パン" as ll{
+
+}
+
+class "肉" as mm{
+
+}
+
+class "野菜" as nn{
+
+}
+
+class "チーズ" as oo{
+
+}
+
+ee "1..*" o-right- dd
+dd "0..*" -right- "0..1" ii
+dd "0..*" -- "1" cc
+
+aa "0..*" -left- "1..3" ff
+
+aa -right-|> cc
+
+bb -up-|> cc
+
+bb "1" -right- "1" jj
+
+hh -up-|> bb
+kk -up-|> bb
+
+hh "1..*" o-left- "1..*" gg
+
+ll -up-|> gg
+mm -up-|> gg
+nn -up-|> gg
+oo -up-|> gg
+
+@enduml
