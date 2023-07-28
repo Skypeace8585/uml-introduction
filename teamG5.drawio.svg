@@ -1,4 +1,4 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="331px" height="91px" viewBox="-0.5 -0.5 331 91" content="&lt;mxfile&gt;&lt;diagram id=&quot;vbNuAf7SWjpOzB7njCXS&quot; name=&quot;Page-1&quot;&gt;xZXBbqMwEIafxtcKcCBwxIG2l0or5bC7R29wwVqDI+Mk0KdfGw8BQlp1pa5WiqLxPx5jf/MbEN7V3ZOix+pFFkygwCs6hDMUBGG0Mf9W6J0QBSCUihdO8idhz98YiB6oJ16wdjFRSyk0Py7Fg2wadtALjSolL8tpr1Isn3qkJVsJ+wMVa/U7L3Tl1Dj0Jv2Z8bIan+x7kKnpOBmEtqKFvMwknCO8U1JqF9XdjgnLbuTi6h7fyV43plijP1MQuIIzFSc4G35AeYKSDCU5ykNEYvszQUxQukF5jNIdSgikUhNgFPsoNZO3KNkgQqA8DWxgUmRrU+nWptyZdT+C1Kwz2ySVroURfBNSwcvGxAdzAKaMcGZKc4M+hUTNi8KWE8Va/kZ/DUt5ZnyUvNFDY0OCwsyuddKydeaxS7dayd9sJ4U062aNbOwqr1yIG2nNELDarbBuJgHTJyZrplVvpkB2bG+/9O1lMos/mqWaGQWDRsGf5XXhqYUmgC7e72i4gswKY14YwhFnwM0hVf8DGA6Dn3bwEI7DrJsnsx5G71Jq5UkdRjM5ye7gQ2yKCar5eXm97lGA0m+21zPceMl7e8NRU1UyDUU3KK+7+BRdvLovf39bMEqzIQgQ8SCwk4cUwav+KXlqClYA90vFNdsf6YD4Yl6vy3Z+gXmjJczNHfMGd8wbfYF5I/8OXwfocWSXjOySAbTBGqI8skHi2TeN7YFpxsYGsTf0ILKvn/+N9dak/5CrGU6fEOfy6TuM8z8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="511px" height="100px" viewBox="-0.5 -0.5 511 100" content="&lt;mxfile&gt;&lt;diagram id=&quot;vbNuAf7SWjpOzB7njCXS&quot; name=&quot;Page-1&quot;&gt;zZZNj5swEIZ/ja8rwIGYIwR2e6lUKYe2R2/wglUHR47ztb++M2ASCKTaVdPtSlE0fsc29uN3DIQu1scnwzfVV10IRQKvOBKakSAIoxn8o3BqhShwQmlk0Ur+RVjKV+FEz6k7WYjtoKPVWlm5GYorXddiZQcaN0Yfht1etBo+dcNLMRKWK67G6ndZ2KpVWehd9C9CllX3ZN9zmTXvOjthW/FCH3oSzQldGK1tG62PC6GQXcelHfd4I3temBG1fcuAoB2w52rn9kYfSB6TOCNxTvKQpAx/ELCUJDOSM5IsSJy6VAIBJcwnCXSek3hG0tQNTwIMIJXOMZXMMdXu2Z46kFYcYZlpZdcKBB9CrmRZQ7yCDQgDwl4YKwF94hJrWRQ4PDViK1/5czOVB+2NlrVtDjZMSZjhXDurt615cOqtNfqXWGilYd6s1jXO8iKVupLGDB1WXIo49iTH9EnotbDmBF1ctjve09C3h4tZ/M4sVc8o1Gnc+bM8T3w5QgjcKU6faDiCLAowr2u6LfaAwybN6Ydj2DR+YuMh7JrZsZ/MTq51k9JW78yqM1Mr4Qr+iM0Ixa3cD8trioIb+g3PuoebDnnPrzhabkph3aArlOdVvIkuHdXL+6uFkiRrgoCknguwc5NK6ej8jN7VhSgc90MlrVhueIP4ANfr8DjvYN5oCHM2Yd5gwrzRHcwbfax7r3w5ya31jlse/Sf2pdR/6Or2fGNc0Wyr6h4WjuJPx7h/ZUR0gjv7S+5v9t9UfUeE5YQxDJKwqd0QmxBjipHYwxcclj7cATMMmNeUfoRvvTtU86h0JyDefhXR/1jO7H04IYBPhkYBlmyBfWK4QB8nSAeRwk+HZwNRidEnZD/zP4w9NC9fje2tcPn0pvlv&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
         <rect x="0" y="0" width="150" height="30" fill="none" stroke="none" pointer-events="all"/>
@@ -37,6 +37,10 @@
                 </text>
             </switch>
         </g>
+        <path d="M 311.25 90 L 216.11 61.81" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 211.07 60.32 L 218.78 58.95 L 216.11 61.81 L 216.79 65.66 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 330 60 L 383.63 60" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 388.88 60 L 381.88 63.5 L 383.63 60 L 381.88 56.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
         <rect x="210" y="30" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
@@ -44,13 +48,33 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 60px; margin-left: 211px;">
                         <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
-                                クラス別成績一覧
+                                授業別成績一覧
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="270" y="64" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    クラス別成績一覧
+                    授業別成績一覧
+                </text>
+            </switch>
+        </g>
+        <rect x="390" y="30" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 60px; margin-left: 391px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                授業別前後期成績
+                                <br/>
+                                一覧
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="450" y="64" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    授業別前後期成績
+一覧
                 </text>
             </switch>
         </g>
